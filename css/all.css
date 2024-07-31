@@ -1,0 +1,54 @@
+html{
+background: linear-gradient(rgb(214, 214, 214), rgb(156, 156, 156), rgb(77, 77, 77));
+}
+
+
+/**Header**/
+header{
+    background:linear-gradient(rgb(0 0 0 / 10%), rgb(0 0 0 / 70%));
+    position: sticky;
+    top: 0;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 0;
+}
+
+nav li{
+    border-right: 5px groove black;
+    border-collapse: collapse;
+    padding : 20px 0 20px 0;
+    width: 33%;
+    text-align: center;
+}
+
+nav li:last-child{
+    border-right: none
+}
+
+
+nav li:hover{
+    background: rgb(0 0 0 / 20%);
+}
+
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color:peru;
+    text-shadow: 2px 2px darkred;
+}
+
+header img{
+    margin: auto;
+    display: flex;
+    width: 500px;
+}
