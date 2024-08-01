@@ -1,7 +1,22 @@
-html{
-background: linear-gradient(rgb(214, 214, 214), rgb(156, 156, 156), rgb(77, 77, 77));
+@font-face {
+    font-family: "got";
+    src: url(police/Game\ of\ Thrones.ttf);
 }
 
+@font-face {
+    font-family: "merienda";
+    src: url(police/Merienda/Merienda-VariableFont_wght.ttf);
+}
+
+
+html{
+background: linear-gradient(rgb(214, 214, 214), rgb(156, 156, 156), rgb(77, 77, 77));
+font-family:"merienda";
+}
+
+body section{
+    line-height: 28px;
+}
 
 /**Header**/
 header{
@@ -10,12 +25,28 @@ header{
     top: 0;
 }
 
+#logos{
+    display: flex;
+}
+
+#logos a{
+    width: 11%;
+    height: 70px;
+}
+
+#logos img{
+    width: auto;
+    height: 100%;
+}
+
 nav ul{
     display: flex;
     flex-direction: row;
     list-style-type: none;
     justify-content: space-around;
     padding: 0;
+    font-family: "got";
+    word-spacing: 5px;
 }
 
 nav li{
@@ -51,4 +82,26 @@ header img{
     margin: auto;
     display: flex;
     width: 500px;
+}
+
+
+/**Body**/
+
+figcaption{
+    text-align: center;
+    color: #95886A;
+}
+
+figure{
+    border-radius: 20px;
+    background-color: #0D1316;
+}
+
+figure img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+h2, h3{
+    font-family: "got";
 }

@@ -1,0 +1,14 @@
+#continents{
+    display: flex;
+    align-items: center;
+}
+
+#autres_continents{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#autres_continents li{
+    width: 45%;
+}

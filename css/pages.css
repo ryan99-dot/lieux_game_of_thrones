@@ -1,0 +1,29 @@
+.tree{
+    border-radius: 20px;
+}
+
+#winterfell{
+    background-color: #EFEFEF;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+table{
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+
+td, th{
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: black;
+    color: white;
+    border-right: solid 1px white;
+}
+
+th:last-child{
+    border-right: solid 1px black;
+}
