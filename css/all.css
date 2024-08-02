@@ -10,7 +10,7 @@
 
 
 html{
-background: linear-gradient(rgb(214, 214, 214), rgb(156, 156, 156), rgb(77, 77, 77));
+background: linear-gradient(rgb(250, 250, 250), rgb(200, 200, 200), rgb(150, 150, 150));
 font-family:"merienda";
 }
 
@@ -68,12 +68,12 @@ nav li:hover{
 
 
 
-a{
+nav a{
     text-decoration: none;
     color: white;
 }
 
-a:hover{
+nav a:hover{
     color:peru;
     text-shadow: 2px 2px darkred;
 }
@@ -105,3 +105,4 @@ figure img{
 h2, h3{
     font-family: "got";
 }
+

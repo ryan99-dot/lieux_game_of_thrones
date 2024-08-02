@@ -27,3 +27,22 @@ th{
 th:last-child{
     border-right: solid 1px black;
 }
+
+caption{
+    font-size: larger;
+    text-decoration: underline black;
+}
+
+.first{
+    font-style: italic;
+    display: flex;
+}
+
+.first img{
+    width: 33%;
+}
+
+.first p{
+    margin-right: 5px;
+    width: 33%;
+}
