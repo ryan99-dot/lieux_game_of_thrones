@@ -1,0 +1,286 @@
+/**Paragraphe d'intro**/
+.first {
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 28px;
+}
+
+.cartes {
+    width: 33%;
+    height: auto;
+}
+
+.first p {
+    margin-right: 5px;
+    width: 33%;
+}
+
+/**Petits blasons**/
+.blason {
+    height: 20px;
+    width: auto;
+}
+
+/**Arbre généalogique**/
+.tree {
+    border-radius: 20px;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+/**Tableaux**/
+table {
+    border: solid 1px black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td,
+th {
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: black;
+    color: white;
+    border-right: solid 1px white;
+}
+
+th:last-child {
+    border-right: solid 1px black;
+}
+
+caption {
+    font-size: larger;
+    text-decoration: underline black;
+}
+
+.blason_tab {
+    height: 60px;
+}
+
+td img {
+    height: 120px;
+}
+
+
+/**Mise en page des articles**/
+
+
+.media {
+    display: flex;
+    justify-content: space-around;
+}
+
+.media table {
+    margin: 0;
+    margin-right: 25px;
+    width: 45%;
+}
+
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 45%;
+}
+
+/**Diapos de photos**/
+
+.lesImg {
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #666;
+    padding: 3px;
+    border-radius: 25px;
+    color: white;
+    max-width: 1000px;
+}
+
+.btn_gauche,
+.btn_droit {
+    border: none;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #666;
+    border-radius: 50px;
+}
+
+.btn_gauche:hover,
+.btn_droit:hover {
+    color: green;
+}
+
+.monDiapo1 {
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+}
+
+.monDiapo2 {
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+}
+
+.monDiapo3 {
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+}
+
+.monDiapo4 {
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+}
+
+.monDiapo4 {
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+}
+
+.monDiapo5 {
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+}
+
+.monDiapo6 {
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+}
+
+.monDiapo7 {
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+}
+
+.monDiapo3 {
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+}
+
+.monDiapo8 {
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+}
+
+.monDiapo9 {
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+}
+
+.monDiapo10 {
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+}
+
+.monDiapo11 {
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+}
+
+.monDiapo12 {
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+}
+
+#monDiapo {
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+}
+
+.lesImg p {
+    margin: 5px;
+}
+
+.btn_gauche {
+    position: absolute;
+    left: -25px;
+}
+
+.btn_droit {
+    position: absolute;
+    right: -25px;
+}
+
+
+/**Séparation**/
+.line {
+    background-image: url(../images/sword.png);
+    background-repeat: repeat-x;
+    background-size: 170px 20px;
+}
+
+
+/**Responsive**/
+
+@media screen and (max-width:1023px) {
+    .lesImg {
+        width: 90%;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    .first {
+        display: block;
+    }
+
+    .first p {
+        width: 100%;
+    }
+
+    .cartes {
+        width: 100%;
+    }
+
+    .images .lesImg {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .media {
+        flex-direction: column;
+    }
+
+    .media table {
+        width: 100%;
+    }
+
+    .images {
+        width: 100%;
+    }
+
+    .tree {
+        margin-top: 20px;
+    }
+
+    td img {
+        height: 100px;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+    td img {
+        height: 80px;
+    }
+
+    .media table {
+        max-width: 100%;
+        margin-left: 5px;
+    }
+}

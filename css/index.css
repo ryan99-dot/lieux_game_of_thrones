@@ -1,0 +1,54 @@
+#continents {
+    display: flex;
+    align-items: center;
+}
+
+#monde {
+    list-style-type: none;
+    width: 200%;
+}
+
+
+#autres_continents {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#autres_continents li {
+    width: 45%;
+}
+
+figcaption {
+    text-align: center;
+    color: #95886A;
+}
+
+figure {
+    border-radius: 20px;
+    background-color: #0D1316;
+}
+
+figure img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+}
+
+
+/**Responsive**/
+@media screen and (max-width:1023px) {
+    #continents {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    #continents li {
+        width: 100%;
+    }
+
+    figure {
+        margin-left: 0;
+    }
+
+}
